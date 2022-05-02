@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color:black;
+    border:none;
+}
+
+body {
+    background-image: url('../farmacia/background.jpg');
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color:cornflowerblue; /*esqueceu a senha e registrar fica azul*/
+}
+
+
+/*container login */
+
+ #login-container{
+     background-color: white;
+     width: 400px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px 30px;
+     margin-top: 20vh;    
+     border-radius: 10px; /*a redonda os cantos*/
+     text-align: center;
+ }
+  
+
+ /* formulario */
+    
+ form {
+     margin-top: 30px;
+     margin-bottom: 40px;
+ }
+
+
+ /* texto de email e senha */
+
+ label, input {
+     display: block;
+     width: 100%;
+     text-align: left;
+ }
+
+ label {
+     font-weight: bold;
+ }
+
+
+ /* area do digite sua senha/login */
+
+ input{
+     border-bottom: 2px solid lightseagreen; /*ver qual melhor buttom ou n*/
+     padding: 15px;
+     font-size: 1rem;
+     margin-bottom: 20px; 
+ }
+
+
+ input:focus { /* quando receber foco fica dessa cor*/
+     border-bottom: 2px solid turquoise;
+ }
+
+
+ /*esqueceu a senha*/
+ 
+ #forgot-pass {
+     text-align: right;
+     display: block;
+ }
+
+
+ /*login*/
+
+ input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border: 20px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: rgb(26, 108, 109);
+    cursor: pointer; 
+ }
+
+ input[type="submit"]:hover { /*botão do login*/
+    background-color: turquoise;
+    transition: .5s;
+ }
+
+
+ /* redes sociais */
+
+ #social-container, #social-container p {
+     margin-bottom: 10px;
+ }
+
+ #social-container i {
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+     line-height: 40px;
+     color:linen;
+     margin: 0 5px;
+     cursor: pointer; 
+ }
+
+ .fa-facebook-f {
+     background-color:#3B5998;
+ }
+
+.fa-linkedin {
+    background-color: #0877B5;
+}
+
+
+/* registrar */
+
+#register-container p {
+    margin-bottom: 10px;
+
+}
